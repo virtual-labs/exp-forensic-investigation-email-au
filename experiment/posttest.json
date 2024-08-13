@@ -2,35 +2,52 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What does a discrepancy between the 'Reply-To' and 'From' fields in an email header typically indicate?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The email is from a trusted sender.",
+        "b": "The sender accidentally made a mistake.",
+        "c": "The email may be part of a phishing attempt.",
+        "d": "The email was sent from a secure email service."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation: Trusted senders usually have matching 'Reply-To' and 'From' fields.",
+        "b": "Explanation: Mistakes like this are uncommon in legitimate emails.",
+        "c": "Explanation: A discrepancy can indicate a phishing attempt, as attackers may use a different 'Reply-To' address to mislead the recipient. <a href='www.google.com'>Learn more</a>",
+        "d": "Explanation: Secure email services ensure these fields match."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What role does the 'Received' field play in an email header analysis?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It displays the content of the email.",
+        "b": "It indicates the email's attachment size.",
+        "c": "It helps trace the path the email took through different servers.",
+        "d": "It shows the time the email was opened."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation: The 'Received' field does not display content.",
+        "b": "Explanation: Attachment size is not shown in the 'Received' field.",
+        "c": "Explanation: The 'Received' field tracks the route the email took, providing insights into its origin and any suspicious hops. <a href='www.google.com'>Learn more</a>",
+        "d": "Explanation: The 'Received' field does not indicate when the email was opened."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How can analyzing the hyperlinks within an email help in detecting phishing attempts?",
+      "answers": {
+        "a": "By confirming the email's formatting.",
+        "b": "By ensuring that the email was sent recently.",
+        "c": "By comparing the displayed link text with the actual URL.",
+        "d": "By verifying the size of the email's attachments."
+      },
+      "explanations": {
+        "a": "Explanation: Formatting is unrelated to link analysis.",
+        "b": "Explanation: The timing of the email does not affect link security.",
+        "c": "Explanation: Phishing emails often display misleading link text that doesn't match the actual URL, indicating a potential threat. <a href='www.google.com'>Learn more</a>",
+        "d": "Explanation: Attachment size is not relevant to link analysis."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
