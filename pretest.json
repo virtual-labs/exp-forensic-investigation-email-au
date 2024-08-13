@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is a common indicator in the email header that could suggest the email originated from a suspicious source?",
+      "answers": {
+        "a": "A familiar IP address",
+        "b": "A mismatched domain in the 'From' field",
+        "c": "A known email service provider",
+        "d": "A correctly configured DKIM signature"
+      },
+      "explanations": {
+        "a": "Explanation: Familiar IP addresses are usually not suspicious.",
+        "b": "Explanation: A mismatched domain in the 'From' field often indicates phishing or spoofing attempts. <a href='www.google.com'>Learn more</a>",
+        "c": "Explanation: Known email service providers are typically legitimate.",
+        "d": "Explanation: Correctly configured DKIM signatures are a sign of legitimate emails."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why is the absence of SPF, DKIM, or DMARC records in an email concerning?",
+      "answers": {
+        "a": "It indicates that the email is from a new domain.",
+        "b": "It suggests that the email is automatically safe.",
+        "c": "It may imply that the email is not properly authenticated and could be malicious.",
+        "d": "It shows that the email is from a secure source."
+      },
+      "explanations": {
+        "a": "Explanation: New domains can have these records set up.",
+        "b": "Explanation: Lack of these records doesn't automatically make an email safe.",
+        "c": "Explanation: Absence of SPF, DKIM, or DMARC can suggest a lack of proper authentication, potentially indicating phishing or spoofing. <a href='www.google.com'>Learn more</a>",
+        "d": "Explanation: Lack of these records doesn't guarantee security."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which tool is commonly used to scan email attachments for known threats during content analysis?",
+      "answers": {
+        "a": "Antivirus software",
+        "b": "Email client",
+        "c": "Browser",
+        "d": "Word processor"
+      },
+      "explanations": {
+        "a": "Explanation: Antivirus software is designed to detect and remove malware from email attachments. <a href='www.google.com'>Learn more</a>",
+        "b": "Explanation: Email clients are primarily for reading and managing emails.",
+        "c": "Explanation: Browsers are used for web navigation, not for scanning attachments.",
+        "d": "Explanation: Word processors are for document creation and editing."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
