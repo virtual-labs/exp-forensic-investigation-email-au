@@ -28292,7 +28292,7 @@ const cN = { downloadedFiles: [] },
                         y.jsx("br", {}),
                         y.jsx("span", {
                           children:
-                            '"IEEE Collabratec(R)" <no-reply@amazon.org>',
+                            '"Amazon" <no-reply@amazon.org>',
                         }),
                       ],
                     }),
