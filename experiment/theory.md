@@ -1,36 +1,25 @@
-### Theory
-Forensic investigation on email refers to the process of examining and analyzing email communications to gather evidence for legal or investigative purposes. This type of investigation is commonly conducted in various scenarios, including criminal cases, corporate investigations, intellectual property disputes, and civil litigation. 
-1. Header Analysis
-Email headers contain metadata that provides crucial information about the origin and path of the email. Investigators analyze headers to:
+<h3>Theory</h3>
+<p>Forensic investigation on email refers to the process of examining and analyzing email communications to gather evidence for legal or investigative purposes. This type of investigation is commonly conducted in various scenarios, including criminal cases, corporate investigations, intellectual property disputes, and civil litigation.</p>
 
-- Identify the sender's IP address.
+<h4>What is Forensic Email Investigation?</h4>
+<p>Forensic email investigation is the process of scrutinizing email structures, headers, metadata, and content to identify suspicious or malicious activity. The goal is to uncover evidence that can be used in legal or investigative processes, especially in cases involving fraud, phishing, and cybercrime.</p>
 
-- Trace the route the email took through different mail servers.
+<h4>Common Scenarios for Email Forensics</h4>
+<p>Forensic investigations on email are commonly conducted in the following scenarios:</p>
 
-- Verify if the sender’s domain and email address were spoofed.
+<ul>
+    <li><strong>Criminal Cases:</strong> Emails are examined as potential evidence in criminal investigations such as fraud, identity theft, or harassment. Investigating the email's metadata and content helps identify the sender, their intent, and any fraudulent activities.</li>
+    <li><strong>Corporate Investigations:</strong> Companies use email forensics to investigate internal fraud, data breaches, and policy violations. Email analysis can expose malicious insider activities or unauthorized communications between employees and external parties.</li>
+    <li><strong>Intellectual Property Disputes:</strong> Emails often serve as digital evidence in cases involving the theft of intellectual property, such as patents or proprietary business information. Forensic analysis of email content can confirm the unauthorized dissemination of sensitive information.</li>
+    <li><strong>Civil Litigation:</strong> Email forensics is used in civil legal cases, including disputes over contracts, defamation, or harassment. Email exchanges can reveal key insights into the intentions and actions of involved parties.</li>
+</ul>
 
-- Check authentication results like SPF, DKIM, and DMARC. This helps determine the authenticity of the email and locate the actual source.
+<h4>Key Terms in Forensic Email Investigation</h4>
+<p>Below are some key terms that are important in forensic email investigation:</p>
 
-2. Link Analysis
-Email links are often used in phishing attacks or malware distribution. Link analysis involves:
-
-- Extracting all URLs from the email body.
-
-- Checking the legitimacy of the URLs by examining their domain names.
-
-- Investigating redirection behavior (e.g., shortened links).
-
-- Using threat intelligence databases to check for malicious or blacklisted links. This step helps assess whether the email was designed for phishing or redirecting the recipient to a harmful website.
-
-3. Content analysis
-Content analysis involves examining the body and attachments of the email. Focus areas include:
-
-- Suspicious or manipulative language 
-- Unusual formatting or spelling/grammar mistakes
-- Social engineering tactics used to trick users
-
-Suspicious attachments are a major concern:
-- Executable files (.exe, .scr, .bat)
-- Scripted Office docs (.docm, .xlsm)
-- Compressed files (.zip, .rar)
-- Files with double extensions (e.g., "invoice.pdf.exe")
+<ul>
+    <li><strong>Email Header:</strong> The email header contains essential metadata, including the sender's IP address, subject line, timestamps, and email servers. Forensic investigators analyze this data to trace the origin of the email and identify any suspicious routing or unauthorized sources.</li>
+    <li><strong>Phishing:</strong> Phishing attacks attempt to deceive recipients into providing sensitive information, such as login credentials or financial details. A forensic investigation looks for signs of phishing, such as deceptive sender addresses and suspicious links.</li>
+    <li><strong>Malware:</strong> Malicious attachments or links within emails may contain malware designed to compromise a system. Forensic tools are used to scan attachments and analyze their behavior to identify harmful files.</li>
+    <li><strong>SPF, DKIM, and DMARC:</strong> These are email authentication protocols used to verify that an email is coming from a legitimate source. Investigating these mechanisms can help identify spoofed or forged emails, which are often used in phishing attacks.</li>
+</ul>
