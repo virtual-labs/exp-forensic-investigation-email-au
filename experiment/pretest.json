@@ -51,6 +51,57 @@
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
+    },
+    {
+      "question": "What does a mismatched domain in the 'From' field in an email header typically indicate?",
+      "answers": {
+        "a": "The email is from a trusted sender",
+        "b": "The email might be part of a phishing or spoofing attempt",
+        "c": "The email is from a government agency",
+        "d": "The email is safe and secure"
+      },
+      "explanations": {
+        "a": "Explanation: A mismatched domain suggests that the email is not from a trusted source.",
+        "b": "Explanation: Phishing or spoofing emails often have mismatched domains to deceive the recipient. <a href='www.google.com'>Learn more</a>",
+        "c": "Explanation: Government agencies usually use consistent domain names that match their official addresses.",
+        "d": "Explanation: A mismatched domain raises concerns about the legitimacy of the email."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a key benefit of SPF, DKIM, and DMARC email authentication protocols?",
+      "answers": {
+        "a": "They confirm the email's authenticity and prevent impersonation",
+        "b": "They encrypt email content for secure transmission",
+        "c": "They improve the speed of email delivery",
+        "d": "They prevent emails from being marked as spam"
+      },
+      "explanations": {
+        "a": "Explanation: These protocols help verify the sender's identity, preventing spoofing or phishing.",
+        "b": "Explanation: SPF, DKIM, and DMARC are not encryption protocols.",
+        "c": "Explanation: These protocols do not affect the speed of email delivery.",
+        "d": "Explanation: While useful, these protocols do not guarantee emails won't be marked as spam."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the first step in analyzing a suspicious email to detect phishing?",
+      "answers": {
+        "a": "Examining the email's subject line for keywords",
+        "b": "Analyzing the email header for suspicious IP addresses and servers",
+        "c": "Opening any attached files to inspect their contents",
+        "d": "Clicking on the links in the email to check for validity"
+      },
+      "explanations": {
+        "a": "Explanation: The subject line alone does not provide enough information to detect phishing.",
+        "b": "Explanation: Analyzing the email header for suspicious origins helps trace the email's legitimacy. <a href='www.google.com'>Learn more</a>",
+        "c": "Explanation: Opening attachments without verification can expose you to malware.",
+        "d": "Explanation: Clicking on links can lead to malicious websites and should be avoided in suspicious emails."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
   ]
 }
