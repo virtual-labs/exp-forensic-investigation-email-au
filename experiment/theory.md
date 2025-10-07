@@ -1,4 +1,4 @@
-<h3>Theory</h3>
+
 <p>Forensic investigation on email refers to the process of examining and analyzing email communications to gather evidence for legal or investigative purposes. This type of investigation is commonly conducted in various scenarios, including criminal cases, corporate investigations, intellectual property disputes, and civil litigation.</p>
 
 <h4>What is Forensic Email Investigation?</h4>

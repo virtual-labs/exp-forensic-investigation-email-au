@@ -1,4 +1,4 @@
-### Aim of the experiment
+
 The aim of performing a forensic investigation on suspicious emails is to understand the methods and tools involved in identifying and analyzing potentially malicious emails. This includes detecting phishing attacks, unauthorized access attempts, and other forms of email-based cybercrimes. The investigation helps to establish the authenticity of emails, trace the source of communication, and prevent security breaches that could lead to data theft, identity fraud, or organizational harm.
 <p>
 The forensic investigation of emails is crucial in various real-world applications:
