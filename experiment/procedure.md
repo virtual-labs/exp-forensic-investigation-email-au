@@ -1,4 +1,4 @@
-### Procedure  
+
 ##### Header Analysis
 <p>Click the mail from the mail list.</p>  
 <img src="./images/for1.png" width="50%">  
