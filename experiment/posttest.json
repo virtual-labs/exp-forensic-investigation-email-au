@@ -2,37 +2,105 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What does a discrepancy between the 'Reply-To' and 'From' fields in an email header typically indicate?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The email is from a trusted sender.",
+        "b": "The sender accidentally made a mistake.",
+        "c": "The email may be part of a phishing attempt.",
+        "d": "The email was sent from a secure email service."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Trusted senders usually have matching 'Reply-To' and 'From' fields.",
+        "b": "Mistakes like this are uncommon in legitimate emails.",
+        "c": "Correct. A discrepancy can indicate a phishing attempt, as attackers may use a different 'Reply-To' address to mislead the recipient. <a href='https://www.researchgate.net/publication/329285238_A_Survey_on_Email_Forensics_Tools_and_Techniques'>Learn more</a>",
+        "d": "Secure email services ensure these fields match."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What role does the 'Received' field play in an email header analysis?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It displays the content of the email.",
+        "b": "It indicates the email's attachment size.",
+        "c": "It helps trace the path the email took through different servers.",
+        "d": "It shows the time the email was opened."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The 'Received' field does not display content.",
+        "b": "Attachment size is not shown in the 'Received' field.",
+        "c": "Correct. The 'Received' field tracks the route the email took, providing insights into its origin and any suspicious hops. <a href='https://www.researchgate.net/publication/329285238_A_Survey_on_Email_Forensics_Tools_and_Techniques'>Learn more</a>",
+        "d": "The 'Received' field does not indicate when the email was opened."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How can analyzing the hyperlinks within an email help in detecting phishing attempts?",
+      "answers": {
+        "a": "By confirming the email's formatting.",
+        "b": "By ensuring that the email was sent recently.",
+        "c": "By comparing the displayed link text with the actual URL.",
+        "d": "By verifying the size of the email's attachments."
+      },
+      "explanations": {
+        "a": "Formatting is unrelated to link analysis.",
+        "b": "The timing of the email does not affect link security.",
+        "c": "Correct. Phishing emails often display misleading link text that doesn't match the actual URL, indicating a potential threat. <a href='https://www.researchgate.net/publication/329285238_A_Survey_on_Email_Forensics_Tools_and_Techniques'>Learn more</a>",
+        "d": "Attachment size is not relevant to link analysis."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which type of malicious content is most often found in email attachments during forensic analysis?",
+      "answers": {
+        "a": "HTML formatting",
+        "b": "Malware or viruses",
+        "c": "Images and emojis",
+        "d": "PDF bookmarks"
+      },
+      "explanations": {
+        "a": "HTML formatting is not inherently malicious.",
+        "b": "Correct. Attachments often contain malware or viruses, which forensic investigators need to detect. <a href='https://www.researchgate.net/publication/329285238_A_Survey_on_Email_Forensics_Tools_and_Techniques'>Learn more</a>",
+        "c": "Images and emojis are typically safe.",
+        "d": "PDF bookmarks are not a source of malware."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why are SPF, DKIM, and DMARC protocols important in forensic email investigation?",
+      "answers": {
+        "a": "They encrypt the email content.",
+        "b": "They verify the authenticity of the sender.",
+        "c": "They improve email sending speed.",
+        "d": "They detect spelling mistakes in emails."
+      },
+      "explanations": {
+        "a": "These protocols do not encrypt content.",
+        "b": "Correct. They help authenticate the sender and prevent spoofing. <a href='https://www.researchgate.net/publication/329285238_A_Survey_on_Email_Forensics_Tools_and_Techniques'>Learn more</a>",
+        "c": "They do not affect email speed.",
+        "d": "They are unrelated to spelling or grammar."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In a forensic investigation, what does analyzing email metadata help determine?",
+      "answers": {
+        "a": "The number of words in the email.",
+        "b": "The identity and location of the sender.",
+        "c": "The color scheme of the email template.",
+        "d": "The font used in the email content."
+      },
+      "explanations": {
+        "a": "Word count is not relevant to forensic analysis.",
+        "b": "Correct. Metadata like IP addresses, timestamps, and servers help trace the sender and detect malicious activity. <a href='https://www.researchgate.net/publication/329285238_A_Survey_on_Email_Forensics_Tools_and_Techniques'>Learn more</a>",
+        "c": "Color scheme is not relevant to forensic investigation.",
+        "d": "Font choice is not relevant to forensic analysis."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
